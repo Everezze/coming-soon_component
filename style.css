@@ -1,0 +1,158 @@
+:root{
+    --main-padding: 0 2rem;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+h1,h2,p{
+    margin:0;
+}
+
+main{
+    display: flow-root;
+    text-align: center;
+    /*padding: 2rem 0;*/
+    background: hsl(0, 100%, 98%);
+    margin: 0 auto;
+}
+
+article>:not(img){
+    padding: var(--main-padding);
+}
+
+main h1{
+    margin-bottom: 2rem;
+    text-align: start;
+}
+
+h2{
+    margin: 3rem 0 1.5rem;
+    font-size: 3rem;
+    letter-spacing: 15px;
+    line-height: 3.5rem;
+}
+
+p{
+    margin: 1.5rem 0 2rem;
+    line-height: 1.5rem;
+}
+
+img{
+    vertical-align: middle;
+}
+
+picture img{
+    width: 100%;
+}
+
+div{
+    display: flow-root;
+    text-align: start;
+    position: relative;
+}
+
+button{
+    background: linear-gradient(90deg, hsl(0,80%,86%), hsl(0,74%,74%));
+    padding: 1rem 1.7rem;
+    border: none;
+    border-radius: 2rem;
+    position: absolute;
+    right:2rem;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+div>*{
+    vertical-align: middle;
+}
+
+picture{
+    display: block;
+    padding: 0;
+}
+
+.phone-img{
+    width: 100%;
+    padding: 0;
+}
+
+.desk-img{
+    display: none;
+}
+
+.desk-img img{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    padding: 1rem 0 1rem 1rem;
+    border: 1px solid gray;
+    border-radius:2rem;
+}
+
+@media screen and (min-width: 900px) {
+    picture{
+        width: 40%;
+        float:right;
+    }
+
+    main{
+        text-align: start;
+        text-align-last: justify;
+    }
+
+    .phone-img{
+        display: none;
+    }
+
+    article,.desk-img{
+        display: inline-block;
+        vertical-align: top;
+        width:47%;
+    }
+
+    article>:not(img){
+        padding: 0;
+    }
+
+    article{
+        padding: 4rem 0 0 8rem;
+        text-align-last: initial;
+    }
+
+    h2{
+        margin-top: 5rem;
+    }
+
+    button{
+        padding: 1rem 2.5rem;
+        right:0;
+    }
+}
+
+@media screen and (min-width:1045px) {
+    .desk-img{
+        width: 43%;
+    }
+
+    article{
+        width: 48%;
+    }
+}
+
+@media screen and (min-width:1250px) {
+    .desk-img{
+        width: 35%;
+    }
+
+    article{
+        width: 42%;
+    }
+}
