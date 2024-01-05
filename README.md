@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://github.com/Everezze/coming-soon_component](https://github.com/Everezze/coming-soon_component)
+- Live Site URL: [https://everezze.github.io/coming-soon_component/](https://everezze.github.io/coming-soon_component/)
 
 ## My process
 
