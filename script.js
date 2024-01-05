@@ -9,7 +9,7 @@ const myRegex = /^\w+@\w+\.[a-z]{2,3}$/;
 
 button.addEventListener("click",function(e){
     console.log(emailInput.value.match(myRegex));
-    if(!emailInput.value.match(myRegex)){
+    if(!emailInput.value.match(myRegex) || emailInput.value == ""){
         e.preventDefault();
         emailInput.classList.add("error");
         errorMessage.classList.add("error");
