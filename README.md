@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://github.com/Everezze/coming-soon_component](https://github.com/Everezze/coming-soon_component)
 
 ## My process
 
@@ -49,4 +49,4 @@ More projects with forms and handling, sending and receiving data from backend.
 
 ## Author
 
-    - Frontend Mentor - [@Everezze](https://www.frontendmentor.io/profile/Everezze)
+    - Frontend Mentor  [@Everezze](https://www.frontendmentor.io/profile/Everezze)
