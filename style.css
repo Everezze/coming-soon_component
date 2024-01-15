@@ -19,7 +19,7 @@ main{
     z-index: 0;
     display: flow-root;
     text-align: center;
-    /*padding: 2rem 0;*/
+    padding: 3rem 0;
     background: hsl(0, 100%, 98%);
     margin: 0 auto;
 }
@@ -35,7 +35,7 @@ main h1{
 
 h2{
     margin: 3rem 0 1.5rem;
-    font-size: 3rem;
+    font-size: min(8vh,5rem);
     letter-spacing: 15px;
     line-height: 3.5rem;
     color:hsl(0, 6%, 24%);
@@ -173,6 +173,7 @@ button .warning-icon.error{
     main{
         text-align: start;
         text-align-last: justify;
+        padding: 0;
     }
 
     .phone-img{
@@ -212,9 +213,16 @@ button .warning-icon.error{
 
 }
 
-@media screen and (min-width:1250px) {
+/*@media screen and (min-width:1250px) {
 
     article{
         width: 42%;
+    }
+}*/
+
+@media screen and (min-width:1700px) {
+    h2{
+        line-height: 4.5rem;
+        margin-top: 10rem;
     }
 }
